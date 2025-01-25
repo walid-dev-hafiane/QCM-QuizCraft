@@ -236,6 +236,40 @@ def choixs(choix,list_categorie):
 
 #menu
 print("--- bienvenneu a notre programme ---")
+print("""
+\nDescription du projet : Programme de questions à choix multiples (QCM)
+Ce programme est un système de questions à choix multiples (QCM) conçu pour aider les utilisateurs à tester leurs connaissances dans divers domaines. Le programme propose différents niveaux de difficulté et permet à l'utilisateur de choisir la catégorie et le nombre de questions auxquelles il souhaite répondre.
+
+Comment utiliser le programme :
+Lancer le programme : Lorsque vous démarrez le programme, une liste de catégories apparaîtra. L'utilisateur doit choisir la catégorie à partir de laquelle il souhaite répondre aux questions.
+
+Choisir la catégorie :
+
+Catégorie 1 : "Algorithmes et logique".
+Catégorie 2 : "Bases de données".
+Catégorie 3 : "Programmation orientée objet (POO)".
+Catégorie 4 : "Développement web statique".
+Entrez le numéro de la catégorie (1, 2, 3 ou 4) selon votre choix.
+
+Choisir le niveau : Après avoir choisi la catégorie, vous serez invité à définir le niveau de difficulté :
+
+"facile".
+"moyen".
+"difficile".
+Entrez le niveau souhaité (par exemple : facile).
+
+Définir le nombre de questions : Entrez le nombre de questions auxquelles vous souhaitez répondre. Si le nombre total de questions dépasse le nombre disponible dans le niveau choisi, le nombre disponible sera défini automatiquement.
+
+Répondre aux questions :
+
+Chaque question sera affichée avec trois options de réponse (1, 2, 3).
+Entrez le numéro de la réponse correcte (par exemple : 1 ou 2 ou 3).
+Vous serez informé si votre réponse est correcte ou incorrecte.
+Afficher les résultats : Après avoir répondu à toutes les questions, le programme affichera le score final (le nombre de réponses correctes).
+
+Quitter le programme : Si vous souhaitez quitter le programme, choisissez l'option numéro (5) dans le menu principal.
+""")
+
 while True:
     try:
         print("\n1) Entrez le chiffre 1 pour categorie Algorithmes et Logique.")
